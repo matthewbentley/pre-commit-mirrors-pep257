@@ -15,4 +15,4 @@ Add this to your `.pre-commit-config.yaml`:
     -   repo: git://github.com/matthewbentley/pre-commit-mirrors-pep257
         sha: ''  # Use the sha / tag you want to point at
         hooks:
-        -   id: pep257
+        -   id: pydocstyle
